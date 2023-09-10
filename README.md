@@ -1,0 +1,2 @@
+# E-Commerce-Store
+This project utilizes various technologies. I employed React JS, incorporating features such as routing, props, hooks (useState, useContext, useNavigate), Redux, and fetching product data from a fake API store using the Axios library. Additionally, I used the Bootstrap framework for styling the web pages and for storing data.i used firebase service for user authentication where user have account or not for login.
