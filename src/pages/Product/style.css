@@ -1,0 +1,22 @@
+.productsCart {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: black;
+}
+body {
+  background-color: rgb(28, 17, 6);
+  color: black;
+}
+.searchField {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  padding: 15px;
+}

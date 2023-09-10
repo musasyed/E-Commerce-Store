@@ -1,0 +1,16 @@
+.section3{
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+margin: 100px auto;
+width: 90%;
+gap: 10px;
+}
+
+.heading{
+    text-align: center;
+    margin: 50px;
+}
+h1{
+    margin-top: 20px;
+}

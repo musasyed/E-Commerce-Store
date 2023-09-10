@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.unorderList {
+  display: flex;
+
+  gap: 40px;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: linear-gradient(to right, #062261, #3f5faa);
+  padding: 20px;
+}
+.unorderList>.navlink{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+.toggle-button {
+  display: none; /* Hide the toggle button by default */
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .unorderList {
+    display: none; /* Hide the menu by default */
+  }
+
+  .navlink {
+    margin: 10px 0;
+  }
+  .toggle-button {
+    display: block; /* Display the toggle button for small screens */
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  .show-menu {
+    display: flex; /* Show the menu when the show-menu class is applied */
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
+  .unorderList {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+
+  /* Add any other styles specific to very small screens here */
+}

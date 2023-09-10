@@ -1,0 +1,21 @@
+.jewelleryItems{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);  
+    font-family: 'Poppins', sans-serif;
+    color: white;
+border-radius: 10px;
+}
+
+.jewelleryItems>h1{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.jewelleryItems>h2,h3{
+    font-size: 0.9rem;
+}
